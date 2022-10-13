@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instructions for publishing specimens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+      .container { max-width: 1012px; margin-top: 2em; }
+      h1 { padding-bottom: 0.3em; font-size: 2em; border-bottom: 1px solid #eaecef; }
+      .instruction-block { display: block; border-bottom: 10px solid #eaecef; margin-bottom: 20px; padding-bottom: 20px; }
+      .instruction-block:first-of-type { margin-top: 50px }
+      .instruction-block img { display: inline-block; width: 400px; vertical-align:top; }
+      .instruction-block .text { display: inline-block; width: 500px; margin-left: 2em; vertical-align:top; }
+      body { font-size: 1.2em; }
+      .instruction-block h2 { margin-top: 1em;}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Instructions for publishing specimens</h1>
+      <p><em>These steps should be followed every week on Wednesdays and Thursdays from 14:00 - 16:00. Alternatively, use your own schedule - but it is IMPORTANT to set aside <strong>regular</strong> time for this task.</em></p>
+      <div class="instruction-block">
+        <img src="img/setup.svg">
+        <div class="text"><h2>Set up</h2>
+          <p>Take your laptop to a suitable large table in the herbarium, and plug in the scanner.</p>
+          <p><a href="#scanner-setup">How do I plug in and install the scanner?</a></p>
+        </div>
+      </div>
+      <div class="instruction-block">
+        <img src="img/step1.svg">
+        <div class="text"><h2 id="step1">Step 1</h2>
+          <p>Select 50 - 200 specimens from the same genus, put them in a pile next to the scanner.</p>
+        </div>
+      </div>
+      <div class="instruction-block">
+        <img src="img/step2.svg">
+        <div class="text"><h2 id="step2">Step 2</h2>
+          <p>Take a specimen from the pile and attach a QR code sticker.</p>
+          <p><a href="#what-qr">What are QR codes and UUIDs, and why do we need them on our specimens?</a></p>
+          <p><a href="#where-qr">Where do I get QR code stickers?</a></p>
+        </div>
+      </div>
+      <div class="instruction-block">
+        <img src="img/step3.svg">
+        <div class="text">
+          <h2 id="step3">Step 3</h2>
+          <p>Place the specimen on the scanner mat, and take a picture.</p>
+          <p><a href="faq.html#scanner-operation">How do I take a picture with the scanner?</a></p>
+          <p><a href="faq.html#scanner-settings">What scanner settings should I use?</a></p>
+        </div>
+      </div>
+      <div class="instruction-block">
+        <img src="img/step4.svg">
+        <div class="text">
+          <h2>Step 4</h2>
+          <p>Place the specimen on the "Finished" pile. Repeat <a href="#step2">Steps 2 - 4</a> until all specimens are photographed, and then pack away the "Finished" pile of specimens.</p>
+        </div>
+      </div>
+      <!-- Upload steps -->
+      <div class="instruction-block">
+        <img src="img/step5.svg">
+        <div class="text">
+          <h2>Step 5</h2>
+          <p>Unplug the scanner and move your laptop to a location with internet access.</p>
+          <p>Open <a href="https://storage.gbif-no.sigma2.no/minio/tajik-img-processing/">https://storage.gbif-no.sigma2.no/minio/tajik-img-processing/ or https://bit.ly/cesp-tajik</a>. Log in using the username 'tajik-upload' and the password which has been provided to you.</p>
+          <p><a href="mailto:helpdesk@gbif.no?Subject=Tajik%20image%20uploader%20password%20reset&body=Please%20send%20me%20a%20new%20password">I have lost or forgotten my password</a></p>
+        </div>
+      </div>
+      <div class="instruction-block">
+        <img src="img/step6.png" style="width: 400px; height: auto;">
+        <div class="text">
+          <h2>Step 6</h2>
+          <p>Select the correct folder for your institution. Create a folder, name it according to the genus you have images for, e.g. "Vulpia". Keep this folder open, and then drag and drop your images into the folder.</p>
+          <p><strong>Wait until the images have all loaded before closing your browser, or navigating away.</strong></p>
+        </div>
+      </div>
+      <div class="instruction-block">
+        <h2>Finish</h2>
+        <p>You have now completed the publication process.</p>
+        <p>We have a script which processes the images, renames them and moves them to a different your location. If you refresh the folder, you will see your images disappearing. When there is a problem with the image, we do not move it but keep in the folder to investigate. Please do not upload the same images twice if they seem to "disappear" from your folder.</p>
+      </div>
+      <hr>
+      <h1>FAQs</h1>
+      <h2 id="why-publish">Why should I publish specimens?</h2>
+      <p><a href="https://docs.google.com/presentation/d/142nnrUZIx2wTuGetnJFi2CIXxpkONFa16Am5L4Zrjg4/edit?usp=sharing">Review the slides presented at the GBIF Tajikistan CESP training workshop (26 - 28 September 2022)</a></p>
+
+      <h2 id="search-gbif">How do I see my institution's specimens?</h2>
+      <p>Go to <a href="https://gbif.org">https://gbif.org</a> and search for your institution's name. </p>
+      <p>Alternatively, use these links: </p>
+      <ul>
+        <li><a href="https://gbif.org/">Khatlon</a></li>
+        <li><a href="https://gbif.org/">TNAS</a></li>
+        <li><a href="https://gbif.org/">TNU</a></li>
+        <li><a href="https://gbif.org/">TPU</a></li>
+      </ul>
+
+      <h2 id="data-correction">I have seen some mistakes on the dataset page for my dataset. How do I correct this?</h2>
+      <p>[More information coming soon...]</p>
+
+      <h2 id="sensitive-species">My collection contains sensitive species. Should we publish these?</h2>
+      <p>Your concerns are shared by many herbaria and museums around the world. GBIF has released a set of guidelines for publishing sensitive data <a href="https://docs.gbif.org/sensitive-species-best-practices/master/en/">https://docs.gbif.org/sensitive-species-best-practices/master/en/</a>. </p>
+      <p>We have a checklist published of sensitive species of Tajikistan. When we upload these, our script matches .... actually what should we do?</p>
+
+      <h2 id="what-why-qr">What are QR codes?</h2>
+      <p>Before we can scan any herbarium specimen, we need to stick on a QR code with unique identifier (UUID). This way we can be sure we are not scanning any specimen twice. It will also give us a way to quickly connect herbarium specimen with its published record when we want to use herbarium specimen for future studies.</p>
+      <p><a href="https://ru.wikipedia.org/wiki/QR-%D0%BA%D0%BE%D0%B4">QR codes</a> are easily machine readable images containing data. In our case we want this data to be a unique identifier that never repeats so we use <a href="https://ru.wikipedia.org/wiki/UUID">UUIDs</a>. A UUID is a string of characters which is guaranteed to be unique.</p>
+
+      <h3 id="where-qr">Get UUID QR codes from Samariddin</h3>
+      <p>Samariddin can print QR codes on sticky labels, and post them or take them to your institution. Then you just pull off a label and stick it onto the specimen. Alternatively, you can generate your own QR codes, print them and stick them onto the specimens.</p>
+
+      <h2 id="scanner-software-installation">Scanner software installation</h1>
+      <p>The scanners used are <a href="https://www.irislink.com/EN-AU/c2234/IRIScanDesk6Pro-A3-Document-scanner.aspx">IRIScan Desk 6 Pro</a>. For this part of the process you&#39;ll need to be connected to the internet.</p>
+      <ul>
+      <li>Download scanning software: <a href="https://storage.gbif-no.sigma2.no/minio/misc/iriscan-software/IRIScan_Desk_Setup.exe">https://storage.gbif-no.sigma2.no/minio/misc/iriscan-software/IRIScan_Desk_Setup.exe</a> or download it from the manufacturer&#39;s <a href="https://storage.gbif-no.sigma2.no/minio/misc/iriscan-software/IRIScan_Desk_Setup.exe">website</a></li>
+      <li>Install the software on your machine. You may need admin rights for this.</li>
+      </ul>
+      <h3 id="scanner-setup">Scanner setup</h2>
+      <h4 id="hardware">Hardware</h3>
+      <p>Your scanner should include following items:
+      <img src="img/scanner-overview.png" alt="image"></p>
+      <ul>
+      <li>(1) Scanner</li>
+      <li>(2) Scanning pad</li>
+      <li>(3) USB cable</li>
+      <li>(4) Getting Started Guide</li>
+      <li>(5) External capture button</li>
+      </ul>
+      <p>Connect the scanner (1) to your computer with provided USB cable (3) and connect the external capture button (5) to the scanner (1). Now place the scanner on the marked spot on the scanning pad (2)</p>
+      <blockquote>
+      <p><strong><em>NOTE:</em></strong> After connecting everything to your computer, there should be a red light visible on the external capture button (5). If this is not the case, try plugging the USB cable (3) to the different port in your computer.</p>
+      </blockquote>
+      <h4 id="software">Software</h3>
+      <p>After you set up your scanner you can start the scanning software (IriScan Desk Pro).
+      Now we can setup the necessary settings to make our scanned herbarium specimens easily publishable. These settings should be needed only on the first start of the scanning software, but check them anyway - better safe then sorry. Here is an overview of the user interface:
+      <img src="img/scanning-software-annotated.png" alt="image"></p>
+      <p>Things to set:</p>
+      <ul>
+      <li>(A) Be sure you are scanning in the <code>Document</code> mode</li>
+      <li>(B) <code>Cropping</code> =&gt; <code>Automatic</code></li>
+      <li>(C) <code>Scan Mode</code> =&gt; <code>Single page</code></li>
+      <li>(D) <code>Edge Fixing</code> =&gt; ON</li>
+      <li>(E) <code>Auto Page Orientation</code> =&gt; ON</li>
+      <li>(F) <code>Output Format</code> =&gt; <code>JPEG</code></li>
+      <li>(G) <code>Image Settings</code> =&gt; <code>Color (Original)</code></li>
+      <li>(H) <code>Resolution</code> =&gt; Max resolution - <code>21MP</code></li>
+      </ul>
+      <p>Other relevant parts of the user interface:</p>
+      <ul>
+      <li>(I) This is the button for scanning. It does the same as clicking the external capture button (5)</li>
+      <li>(J) Shows the directory on your computer where images will be stored</li>
+      <li>(K) Change the directory where images are saved</li>
+      <li>(L) Open the directory with scanned images</li>
+      </ul>
+    </div>
+  </body>
+</html>
