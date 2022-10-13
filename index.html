@@ -14,7 +14,8 @@
       .instruction-block .text { display: inline-block; width: 500px; margin-left: 2em; vertical-align:top; }
       body { font-size: 1.2em; }
       .instruction-block h2 { margin-top: 1em;}
-      h2 a { font-size: 0.5em; color: #5b8269 }
+      h2 a { font-size: 0.8em; color: #5b8269 }
+      #faqs h2 { margin-top: 40px; margin-bottom: 10px; font-size: 1.1em; font-weight: bold; }
     </style>
   </head>
   <body>
@@ -82,76 +83,77 @@
         <p>We have a script which processes the images, renames them and moves them to a different your location. If you refresh the folder, you will see your images disappearing. When there is a problem with the image, we do not move it but keep in the folder to investigate. Please do not upload the same images twice if they seem to "disappear" from your folder.</p>
       </div>
       <hr style="height: 40px;">
-      <h1>FAQs</h1>
-      <h2 id="why-publish">Why should I publish specimens?</h2>
-      <p><a href="https://docs.google.com/presentation/d/142nnrUZIx2wTuGetnJFi2CIXxpkONFa16Am5L4Zrjg4/edit?usp=sharing">Review the slides presented at the GBIF Tajikistan CESP training workshop (26 - 28 September 2022)</a></p>
+      <div id="faqs">
+        <h1>FAQs</h1>
+        <h2 id="why-publish">Why should I publish specimens?</h2>
+        <p><a href="https://docs.google.com/presentation/d/142nnrUZIx2wTuGetnJFi2CIXxpkONFa16Am5L4Zrjg4/edit?usp=sharing">Review the slides presented at the GBIF Tajikistan CESP training workshop (26 - 28 September 2022)</a></p>
 
-      <h2 id="search-gbif">How do I see my institution's specimens?</h2>
-      <p>Go to <a href="https://gbif.org">https://gbif.org</a> and search for your institution's name. </p>
-      <p>Alternatively, use these links: </p>
-      <ul>
-        <li><a href="https://gbif.org/">Khatlon</a></li>
-        <li><a href="https://gbif.org/">TNAS</a></li>
-        <li><a href="https://gbif.org/">TNU</a></li>
-        <li><a href="https://gbif.org/">TPU</a></li>
-      </ul>
+        <h2 id="search-gbif">How do I see my institution's specimens?</h2>
+        <p>Go to <a href="https://gbif.org">https://gbif.org</a> and search for your institution's name. </p>
+        <p>Alternatively, use these links: </p>
+        <ul>
+          <li><a href="https://gbif.org/">Khatlon</a></li>
+          <li><a href="https://gbif.org/">TNAS</a></li>
+          <li><a href="https://gbif.org/">TNU</a></li>
+          <li><a href="https://gbif.org/">TPU</a></li>
+        </ul>
 
-      <h2 id="data-correction">I have seen some mistakes on the dataset page for my dataset. How do I correct this?</h2>
-      <p>[More information coming soon...]</p>
+        <h2 id="data-correction">I have seen some mistakes on the dataset page for my dataset. How do I correct this?</h2>
+        <p>[More information coming soon...]</p>
 
-      <h2 id="sensitive-species">My collection contains sensitive species targeted by e.g. plant collectors or the pharmaceutical industry. Should we publish these?</h2>
-      <p>Yes, you should publish these records. However, your concerns are shared by many herbaria and museums around the world. GBIF has released a set of guidelines for publishing sensitive data <a href="https://docs.gbif.org/sensitive-species-best-practices/master/en/">https://docs.gbif.org/sensitive-species-best-practices/master/en/</a>. </p>
-      <p>GBIF Tajikistan should publish a checklist of sensitive species of Tajikistan. Once this is in place, we can check species against this list and obscure the label, so it is not possible to view locality information.</p>
+        <h2 id="sensitive-species">My collection contains sensitive species targeted by e.g. plant collectors or the pharmaceutical industry. Should we publish these?</h2>
+        <p>Yes, you should publish these records. However, your concerns are shared by many herbaria and museums around the world. GBIF has released a set of guidelines for publishing sensitive data <a href="https://docs.gbif.org/sensitive-species-best-practices/master/en/">https://docs.gbif.org/sensitive-species-best-practices/master/en/</a>. </p>
+        <p>GBIF Tajikistan should publish a checklist of sensitive species of Tajikistan. Once this is in place, we can check species against this list and obscure the label, so it is not possible to view locality information.</p>
 
-      <h2 id="what-why-qr">What are QR codes? <a href="#" onclick="history.back()">Go back</a></h2>
-      <p>Before we can scan any herbarium specimen, we need to stick on a QR code with unique identifier (UUID). This way we can be sure we are not scanning any specimen twice. It will also give us a way to quickly connect herbarium specimen with its published record when we want to use herbarium specimen for future studies.</p>
-      <p><a href="https://ru.wikipedia.org/wiki/QR-%D0%BA%D0%BE%D0%B4">QR codes</a> are easily machine readable images containing data. In our case we want this data to be a unique identifier that never repeats so we use <a href="https://ru.wikipedia.org/wiki/UUID">UUIDs</a>. A UUID is a string of characters which is guaranteed to be unique.</p>
+        <h2 id="what-why-qr">What are QR codes? <a href="#" onclick="history.back()">Go back</a></h2>
+        <p>Before we can scan any herbarium specimen, we need to stick on a QR code with unique identifier (UUID). This way we can be sure we are not scanning any specimen twice. It will also give us a way to quickly connect herbarium specimen with its published record when we want to use herbarium specimen for future studies.</p>
+        <p><a href="https://ru.wikipedia.org/wiki/QR-%D0%BA%D0%BE%D0%B4">QR codes</a> are easily machine readable images containing data. In our case we want this data to be a unique identifier that never repeats so we use <a href="https://ru.wikipedia.org/wiki/UUID">UUIDs</a>. A UUID is a string of characters which is guaranteed to be unique.</p>
 
-      <h2 id="where-qr">Get UUID QR codes from the Tajik GBIF node <a href="#" onclick="history.back()">Go back</a></h2>
-      <p>Samariddin can print QR codes on sticky labels, and post them or take them to your institution. Then you just pull off a label and stick it onto the specimen. Alternatively, you can generate your own QR codes, print them and stick them onto the specimens.</p>
+        <h2 id="where-qr">Get UUID QR codes from the Tajik GBIF node <a href="#" onclick="history.back()">Go back</a></h2>
+        <p>Samariddin can print QR codes on sticky labels, and post them or take them to your institution. Then you just pull off a label and stick it onto the specimen. Alternatively, you can generate your own QR codes, print them and stick them onto the specimens.</p>
 
-      <h2 id="scanner-setup">Scanner setup <a href="#" onclick="history.back()">Go back</a></h1>
-      <p>The scanners used are <a href="https://www.irislink.com/EN-AU/c2234/IRIScanDesk6Pro-A3-Document-scanner.aspx">IRIScan Desk 6 Pro</a>. For this part of the process you&#39;ll need to be connected to the internet.</p>
-      <ul>
-      <li>Download scanning software: <a href="https://storage.gbif-no.sigma2.no/minio/misc/iriscan-software/IRIScan_Desk_Setup.exe">https://storage.gbif-no.sigma2.no/minio/misc/iriscan-software/IRIScan_Desk_Setup.exe</a> or download it from the manufacturer&#39;s <a href="https://storage.gbif-no.sigma2.no/minio/misc/iriscan-software/IRIScan_Desk_Setup.exe">website</a></li>
-      <li>Install the software on your machine. You may need admin rights for this.</li>
-      </ul>
-      <h4 id="hardware">Hardware</h3>
-      <p>Your scanner should include following items:
-      <img src="img/scanner-overview.png" alt="image"></p>
-      <ul>
-      <li>(1) Scanner</li>
-      <li>(2) Scanning pad</li>
-      <li>(3) USB cable</li>
-      <li>(4) Getting Started Guide</li>
-      <li>(5) External capture button</li>
-      </ul>
-      <p>Connect the scanner (1) to your computer with provided USB cable (3) and connect the external capture button (5) to the scanner (1). Now place the scanner on the marked spot on the scanning pad (2)</p>
-      <blockquote>
-      <p><strong><em>NOTE:</em></strong> After connecting everything to your computer, there should be a red light visible on the external capture button (5). If this is not the case, try plugging the USB cable (3) to the different port in your computer.</p>
-      </blockquote>
-      <h2 id="software">Scanner software <a href="#" onclick="history.back()">Go back</a></h2>
-      <p>After you set up your scanner you can start the scanning software (IriScan Desk Pro).
-      Now we can setup the necessary settings to make our scanned herbarium specimens easily publishable. These settings should be needed only on the first start of the scanning software, but check them anyway - better safe then sorry. Here is an overview of the user interface:</p>
-      <img src="img/scanning-software-annotated.png" alt="image" style="max-width: 1012px;"></p>
-      <p>Things to set:</p>
-      <ul>
-      <li>(A) Be sure you are scanning in the <code>Document</code> mode</li>
-      <li>(B) <code>Cropping</code> =&gt; <code>Automatic</code></li>
-      <li>(C) <code>Scan Mode</code> =&gt; <code>Single page</code></li>
-      <li>(D) <code>Edge Fixing</code> =&gt; ON</li>
-      <li>(E) <code>Auto Page Orientation</code> =&gt; ON</li>
-      <li>(F) <code>Output Format</code> =&gt; <code>JPEG</code></li>
-      <li>(G) <code>Image Settings</code> =&gt; <code>Color (Original)</code></li>
-      <li>(H) <code>Resolution</code> =&gt; Max resolution - <code>21MP</code></li>
-      </ul>
-      <p>Other relevant parts of the user interface:</p>
-      <ul>
-      <li>(I) This is the button for scanning. It does the same as clicking the external capture button (5)</li>
-      <li>(J) Shows the directory on your computer where images will be stored</li>
-      <li>(K) Change the directory where images are saved</li>
-      <li>(L) Open the directory with scanned images</li>
-      </ul>
+        <h2 id="scanner-setup">How do I set up the scanner? <a href="#" onclick="history.back()">Go back</a></h1>
+        <p>The scanners used are <a href="https://www.irislink.com/EN-AU/c2234/IRIScanDesk6Pro-A3-Document-scanner.aspx">IRIScan Desk 6 Pro</a>. For this part of the process you&#39;ll need to be connected to the internet.</p>
+        <ul>
+        <li>Download scanning software: <a href="https://storage.gbif-no.sigma2.no/minio/misc/iriscan-software/IRIScan_Desk_Setup.exe">https://storage.gbif-no.sigma2.no/minio/misc/iriscan-software/IRIScan_Desk_Setup.exe</a> or download it from the manufacturer&#39;s <a href="https://storage.gbif-no.sigma2.no/minio/misc/iriscan-software/IRIScan_Desk_Setup.exe">website</a></li>
+        <li>Install the software on your machine. You may need admin rights for this.</li>
+        </ul>
+        <p>Your scanner should include following items:
+        <img src="img/scanner-overview.png" alt="image"></p>
+        <ul>
+        <li>(1) Scanner</li>
+        <li>(2) Scanning pad</li>
+        <li>(3) USB cable</li>
+        <li>(4) Getting Started Guide</li>
+        <li>(5) External capture button</li>
+        </ul>
+        <p>Connect the scanner (1) to your computer with provided USB cable (3) and connect the external capture button (5) to the scanner (1). Now place the scanner on the marked spot on the scanning pad (2)</p>
+        <blockquote>
+        <p><strong><em>NOTE:</em></strong> After connecting everything to your computer, there should be a red light visible on the external capture button (5). If this is not the case, try plugging the USB cable (3) to the different port in your computer.</p>
+        </blockquote>
+        <h2 id="software">Scanner software <a href="#" onclick="history.back()">Go back</a></h2>
+        <p>After you set up your scanner you can start the scanning software (IriScan Desk Pro).
+        Now we can setup the necessary settings to make our scanned herbarium specimens easily publishable. These settings should be needed only on the first start of the scanning software, but check them anyway - better safe then sorry. Here is an overview of the user interface:</p>
+        <img src="img/scanning-software-annotated.png" alt="image" style="max-width: 1012px;"></p>
+        <p>Things to set:</p>
+        <ul>
+          <li>(A) Be sure you are scanning in the <code>Document</code> mode</li>
+          <li>(B) <code>Cropping</code> =&gt; <code>Automatic</code></li>
+          <li>(C) <code>Scan Mode</code> =&gt; <code>Single page</code></li>
+          <li>(D) <code>Edge Fixing</code> =&gt; ON</li>
+          <li>(E) <code>Auto Page Orientation</code> =&gt; ON</li>
+          <li>(F) <code>Output Format</code> =&gt; <code>JPEG</code></li>
+          <li>(G) <code>Image Settings</code> =&gt; <code>Color (Original)</code></li>
+          <li>(H) <code>Resolution</code> =&gt; Max resolution - <code>21MP</code></li>
+        </ul>
+        <p>Other relevant parts of the user interface:</p>
+        <ul>
+          <li>(I) This is the button for scanning. It does the same as clicking the external capture button (5)</li>
+          <li>(J) Shows the directory on your computer where images will be stored</li>
+          <li>(K) Change the directory where images are saved</li>
+          <li>(L) Open the directory with scanned images</li>
+        </ul>
+    </div>
     </div>
   </body>
 </html>
