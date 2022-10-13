@@ -10,7 +10,7 @@ Take your laptop to a suitable large table in the herbarium, and plug in the sca
 
 <a href="#faq-scanner">How do I plug in and install the scanner?</a>
 
----{: style="clear: both"}
+<hr style="clear: both">
 
 ![Step 1](img/setup.svg){: style="float: left"}
 
@@ -18,7 +18,7 @@ Take your laptop to a suitable large table in the herbarium, and plug in the sca
 
 Select 50 - 200 specimens from the same genus, put them in a pile next to the scanner.
 
----{: style="clear: both"}
+<hr style="clear: both">
 
 ![Step 2](img/setup.svg){: style="float: left"}
 
@@ -30,7 +30,7 @@ Take a specimen from the pile and attach a QR code sticker.
 <a href="#faq-where-qr-code-stickers">Where do I get QR code stickers?</a>
 <a href="#faq-why-qr-code-stickers">Why do we need QR codes on our specimens?</a>
 
----{: style="clear: both"}
+<hr style="clear: both">
 
 ![Step 3](img/setup.svg){: style="float: left"}
 
@@ -41,4 +41,4 @@ Place the specimen on the scanner mat, and take a picture.
 <a href="#faq-scanner">How do I take a picture with the scanner?</a>
 <a href="#faq-scanner">What scanner settings should I use?</a>
 
----{: style="clear: both"}
+<hr style="clear: both">
